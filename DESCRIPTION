@@ -1,7 +1,7 @@
 Package: abmR
 Type: Package
 Title: Agent-Based Models in R
-Version: 1.0.9
+Version: 1.0.10
 Authors@R: c(
  person("Benjamin", "Gochanour",
  email = "ben.gochanour@gmail.com",
@@ -21,12 +21,12 @@ RoxygenNote: 7.1.1
 Depends: R (>= 3.5)
 Imports: sp, table1, googledrive, swfscMisc, geosphere, kableExtra,
         gtsummary, ggplot2, gstat, purrr, sf, tmap, raster, utils,
-        stats, methods, rnaturalearth
+        stats, methods, rnaturalearth, maps
 LazyData: true
 NeedsCompilation: no
-Packaged: 2023-06-08 02:48:59 UTC; BGOCHANOUR
+Packaged: 2023-08-27 17:53:58 UTC; BGOCHANOUR
 Author: Benjamin Gochanour [aut, cre],
   Javier Fernandez-Lopez [aut],
   Andrea Contina [aut]
 Repository: CRAN
-Date/Publication: 2023-06-08 03:12:53 UTC
+Date/Publication: 2023-08-27 19:50:02 UTC

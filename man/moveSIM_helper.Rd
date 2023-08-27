@@ -42,9 +42,6 @@ moveSIM_helper(
 \item{search_radius}{Radius of semicircle to South of current location to search for next timestep (in km)}
 
 \item{mortality}{Logical, should low energy levels result in death? Default T.}
-
-\item{current_gen}{Fed into function by function genSIM; if using this function
-alone use 1}
 }
 \value{
 A nx2 dataset containing longitude and latitude points for all n timesteps

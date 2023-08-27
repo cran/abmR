@@ -11,7 +11,8 @@
 #' Tidyverse API. If you use the function a second time, you may simply follow
 #' the prompts and enter a number corresponding to the previous accounts listed.
 #'
-#' @import googledrive purrr raster
+#' @import googledrive raster
+#' @importFrom purrr walk
 #' @details
 #'  \itemize{
 #'  \item{NDVI_2013_NA:}{  A raster stack containing daily NDVI data for North America,

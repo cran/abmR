@@ -5,14 +5,14 @@
 #' @import raster sp
 #' @importFrom  swfscMisc circle.polygon
 #' @param sp A species object
-#' @param env Raster, should represent NDVI or your environmental variable of interest
+#' @param env_orig Raster
+#' @param env_subtract Raster
 #' @param days Integer, how many days (timesteps), would you like to model
 #' @param sigma Numeric, amount of random error
 #' @param dest_x Numeric, destination x coordinate (longitude)
 #' @param dest_y Numeric, destination y coordinate (latitude)
 #' @param mot_x Numeric, movement motivation in x direction
 #' @param mot_y Numeric, movement motivation in y direction
-#' @param sp_poly Come back to this
 #' @param search_radius Radius of semicircle to South of current location to search for next timestep (in km)
 #' @param optimum_lo come back
 #' @param optimum_hi come back

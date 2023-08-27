@@ -13,8 +13,6 @@
 #' @param dest_y Numeric, destination y coordinate (latitude)
 #' @param mot_x Numeric, movement motivation in x direction
 #' @param mot_y Numeric, movement motivation in y direction
-#' @param current_gen Fed into function by function genSIM; if using this function
-#' alone use 1
 #' @param search_radius Radius of semicircle to South of current location to search for next timestep (in km)
 #' @param mortality Logical, should low energy levels result in death? Default T.
 #' @return A nx2 dataset containing longitude and latitude points for all n timesteps

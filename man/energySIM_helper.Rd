@@ -27,6 +27,10 @@ energySIM_helper(
 \arguments{
 \item{sp}{A species object}
 
+\item{env_orig}{Raster}
+
+\item{env_subtract}{Raster}
+
 \item{days}{Integer, how many days (timesteps), would you like to model}
 
 \item{sigma}{Numeric, amount of random error}
@@ -50,10 +54,6 @@ energySIM_helper(
 \item{direction}{come back}
 
 \item{mortality}{Logical, should low energy levels result in death?}
-
-\item{env}{Raster, should represent NDVI or your environmental variable of interest}
-
-\item{sp_poly}{Come back to this}
 }
 \value{
 A nx3 dataset containing longitude and latitude and energy
